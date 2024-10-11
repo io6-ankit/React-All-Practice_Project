@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [num, setNum] = useState("hello may name is Ankit maurya");
+  const [nums, setNums] = useState(" Ankit maurya");
+  const HandleClicked = () => {
+    setNum(if(num));
+  };
+  useEffect(() => {
+    alert("clicked the value");
+  }, [num]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <button onClick={HandleClicked}>clicked</button>
+      <div>{num}</div>
+    </>
   );
 }
 
