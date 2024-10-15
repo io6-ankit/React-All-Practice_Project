@@ -3,18 +3,19 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [num, setNum] = useState("hello may name is Ankit maurya");
-  const [nums, setNums] = useState(" Ankit maurya");
-  const HandleClicked = () => {
-    setNum(if(num));
+  const [myName, setMyName] = useState("My name is Ankit mauarya");
+  const HandleChangeName = () => {
+    let val = myName;
+    if (val === "My name is ankit Maurya") {
+      setMyName("I am a software engineer");
+    } else {
+      setMyName("My name is ankit Maurya");
+    }
   };
-  useEffect(() => {
-    alert("clicked the value");
-  }, [num]);
   return (
     <>
-      <button onClick={HandleClicked}>clicked</button>
-      <div>{num}</div>
+      <div>{myName}</div>
+      <button onClick={HandleChangeName}>clicked</button>
     </>
   );
 }
