@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const biodata = [
+    {
+      id: 0,
+      myName: "Ankit ",
+      age: 19,
+    },
+    {
+      id: 1,
+      myName: "Maurya",
+      age: 22,
+    },
+    {
+      id: 2,
+      myName: "vinay",
+      age: 30,
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {" "}
+      {biodata.map((curElm) => {
+        return (
+          <h1>
+            Name:{curElm.myName} & Age :{curElm.age} & id:{curElm.id}
+          </h1>
+        );
+      })}
+    </>
   );
 }
 
