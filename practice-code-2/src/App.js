@@ -18,6 +18,11 @@ function App() {
       myName: "vinay",
       age: 30,
     },
+    {
+      id: 3,
+      myName: "aaaaa maurya",
+      age: 24,
+    },
   ];
   return (
     <>
