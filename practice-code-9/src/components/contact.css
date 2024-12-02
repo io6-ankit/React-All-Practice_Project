@@ -1,0 +1,440 @@
+.Contact-main-section {
+  display: flex;
+}
+.Contact-main-image-section {
+  height: 600px;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+.Contact-image-section {
+  height: 500px;
+  width: 80%;
+  margin: 40px 0 0 80px;
+}
+.contact-main-heading-section {
+  height: 600px;
+  width: 54%;
+  /* border: 1px solid black; */
+}
+.contact-paragraph-section {
+  font-size: 21px;
+  margin: 30px 0 0 90px;
+}
+.contact-heading-section {
+  margin: 70px 0 0 30%;
+}
+/* .contact-image-main-section {
+    height: 600px;
+    width: 46%;
+    /* border: 1px solid black; */
+/* } */
+*/ .contact-image-section {
+  height: 400px;
+  width: 60%;
+  /* border: 1px solid black; */
+  margin: 70px 0 0 30%;
+}
+.githubImageSection {
+  height: 50px;
+  width: 50px;
+  margin: 10px 0 0 270px;
+}
+.linkedlnImageSection {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+.resume-button {
+  margin: 20px 0 0px 30%;
+  font-size: 20px;
+}
+.resume-button:hover {
+  background-color: rgb(44, 128, 95);
+  color: white;
+}
+.adress-heading-section {
+  margin: 10px 0 0 250px;
+  font-size: 20px;
+}
+.adress-paragraph-section {
+  margin: 0 0 0 100px;
+}
+.heading-mobile-number-section {
+  margin: 10px 0 0 250px;
+  font-size: 20px;
+}
+.number-section {
+  margin: 10px 0 0 320px;
+  font-size: 20px;
+}
+.maps {
+  margin: 10px 0 0 320px;
+}
+.visit-google-map-button {
+  font-size: 20px;
+}
+.visit-google-map-button:hover {
+  background-color: rgb(44, 128, 95);
+  color: white;
+}
+
+@media only screen and (max-width: 1150px) {
+  .Contact-main-section {
+    display: inline-block;
+  }
+  .Contact-image-section {
+    height: 500px;
+    width: 80%;
+    margin: 40px 0 0 80%;
+  }
+  .contact-heading-section {
+    margin: 30px 0 0 80%;
+    height: 20px;
+    width: 80%;
+  }
+  .contact-paragraph-section {
+    height: 50px;
+    width: 150%;
+    font-size: 27px;
+    margin: 60px 0 0 30%;
+  }
+  .heading-mobile-number-section {
+    margin: 70px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .number-section {
+    margin: 50px 0 0 90%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .resume-button {
+    margin: 100px 0 0px 35%;
+    font-size: 20px;
+  }
+  .adress-heading-section {
+    margin: 10px 0 0 40%;
+    font-size: 20px;
+  }
+  .maps {
+    margin: 160px 0 0 85%;
+    height: 20px;
+    width: 100%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 370px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Contact-main-section {
+    display: inline-block;
+  }
+  .Contact-image-section {
+    height: 500px;
+    width: 80%;
+    margin: 40px 0 0 80%;
+  }
+  .contact-heading-section {
+    margin: 30px 0 0 80%;
+    height: 20px;
+    width: 80%;
+  }
+  .contact-paragraph-section {
+    height: 50px;
+    width: 150%;
+    font-size: 26px;
+    margin: 60px 0 0 30%;
+  }
+  .heading-mobile-number-section {
+    margin: 70px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .number-section {
+    margin: 50px 0 0 90%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .resume-button {
+    margin: 100px 0 0px 35%;
+    font-size: 20px;
+  }
+  .adress-heading-section {
+    margin: 10px 0 0 40%;
+    font-size: 20px;
+  }
+  .maps {
+    margin: 160px 0 0 85%;
+    height: 20px;
+    width: 100%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 370px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .contact-paragraph-section {
+    height: 50px;
+    width: 150%;
+    font-size: 25px;
+    margin: 60px 0 0 30%;
+  }
+  .heading-mobile-number-section {
+    margin: 130px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .number-section {
+    margin: 50px 0 0 90%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .resume-button {
+    margin: 130px 0 0px 35%;
+    font-size: 20px;
+  }
+  .adress-heading-section {
+    margin: 10px 0 0 40%;
+    font-size: 20px;
+  }
+  .maps {
+    margin: 160px 0 0 85%;
+    height: 20px;
+    width: 100%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 370px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .contact-paragraph-section {
+    height: 50px;
+    width: 150%;
+    font-size: 23px;
+    margin: 60px 0 0 30%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .contact-paragraph-section {
+    height: 50px;
+    width: 150%;
+    font-size: 21px;
+    margin: 60px 0 0 30%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 300px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .maps {
+    margin: 200px 0 0 85%;
+    height: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 100%;
+  }
+  .heading-mobile-number-section {
+    margin: 140px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 624px) {
+  .heading-mobile-number-section {
+    margin: 140px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 120%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 240px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 120%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 240px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 548px) {
+  .heading-mobile-number-section {
+    margin: 180px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 524px) {
+  .heading-mobile-number-section {
+    margin: 180px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 140%;
+  }
+}
+@media only screen and (max-width: 485px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 140%;
+  }
+  .adress-paragraph-section {
+    margin: 0 0 0 100px;
+    height: 20px;
+    width: 100%;
+  }
+  .heading-mobile-number-section {
+    margin: 180px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 160%;
+  }
+  .contact-paragraph-section {
+    height: 50px;
+    width: 170%;
+    font-size: 26px;
+    margin: 60px 0 0 30%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 160%;
+  }
+  .heading-mobile-number-section {
+    margin: 200px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 180%;
+  }
+  .maps {
+    margin: 220px 0 0 85%;
+    height: 20px;
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 180%;
+  }
+  .contact-paragraph-section {
+    height: 50px;
+    width: 190%;
+    font-size: 26px;
+    margin: 60px 0 0 70%;
+  }
+  .githubImageSection {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 130px;
+  }
+  .linkedlnImageSection {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+  .number-section {
+    margin: 50px 0 0 120%;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  .resume-button {
+    margin: 130px 0 0px 20%;
+    font-size: 20px;
+  }
+  .adress-heading-section {
+    margin: 10px 0 0 25%;
+    font-size: 20px;
+  }
+  .adress-paragraph-section {
+    margin-left: 20px;
+  }
+  .maps {
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 354px) {
+  .contact-heading-section {
+    margin: 30px 0 0 70%;
+    height: 20px;
+    width: 200%;
+  }
+  .heading-mobile-number-section {
+    margin: 200px 0 0 75%;
+    font-size: 20px;
+    height: 20px;
+    width: 200%;
+  }
+}

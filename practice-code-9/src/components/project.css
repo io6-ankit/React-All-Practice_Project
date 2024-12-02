@@ -1,0 +1,34 @@
+.project-main-section {
+  display: flex;
+}
+.project-heading-section {
+  margin: 50% 0 0 150px;
+  color: rgb(50, 71, 97);
+}
+.project-image-section {
+}
+.project-paragraph-section {
+  margin: 20px 0px 0px 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 1300px) {
+  .project-main-section {
+    display: inline-block;
+  }
+  .project-heading-section {
+    margin: 0 0 0 550px;
+    color: rgb(50, 71, 97);
+  }
+  .project-paragraph-section {
+    margin: 20px 0px 0px 410px;
+    font-size: 20px;
+  }
+  .project-image-section {
+    margin: 0 0 0 200px;
+  }
+}
+@media only screen and(max-width:1400px) {
+  .project-main-section {
+    display: inline-block;
+  }
+}

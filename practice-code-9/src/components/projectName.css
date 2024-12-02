@@ -1,0 +1,64 @@
+.projectName-main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.First-project {
+  height: 180px;
+  width: 380px;
+  /* border: 1px solid black; */
+  background-color: rgb(208, 208, 169);
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px 10px rgb(133, 133, 88);
+}
+.second-project {
+  height: 180px;
+  width: 380px;
+  /* border: 1px solid black; */
+  background-color: rgb(208, 208, 169);
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px 10px rgb(133, 133, 88);
+}
+.third-project {
+  height: 180px;
+  width: 380px;
+  /* border: 1px solid black; */
+  background-color: rgb(208, 208, 169);
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px 10px rgb(133, 133, 88);
+}
+.first-project-heading-section {
+  margin: 10px 0 0 30%;
+  color: rgb(45, 79, 64);
+}
+.second-project-heading-section {
+  margin: 10px 0 0 30%;
+  color: rgb(45, 79, 64);
+}
+.third-project-heading-section {
+  margin: 10px 0 0 27%;
+  color: rgb(45, 79, 64);
+}
+.first-project-paragraph-section {
+  font-size: 20px;
+  margin: 10px 0 0 22px;
+}
+.second-project-paragraph-section {
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+}
+.third-project-paragraph-section {
+  font-size: 20px;
+  margin: 10px 0 0 7px;
+}
+a {
+  text-decoration: none;
+  color: rgb(94, 137, 137);
+}
+@media only screen and(max-width:1200px) {
+  .projectName-main-section {
+    display: inline-block;
+    /* align-items: center;
+      justify-content: space-around; */
+  }
+}

@@ -1,0 +1,46 @@
+.Degrees-Received {
+  margin: 0 0 0 35%;
+  /* font-size: 40px; */
+  color: rgb(37, 36, 36);
+}
+.qualification-main-heading {
+  width: 70%;
+  /* height: 100px; */
+}
+.qualification-list {
+  list-style-type: none;
+  font-size: 20px;
+}
+#panel1-header {
+  background-color: rgb(62, 184, 186);
+  color: rgb(106, 12, 12);
+}
+.qualification-parent-section {
+  margin-left: 300px;
+}
+.qualification-second-list {
+  font-size: 25px;
+  list-style-type: none;
+}
+.qualification-second-main-section {
+  width: 70%;
+  /* margin: 20px; */
+}
+#panel2-header {
+  background-color: rgb(62, 184, 186);
+  color: rgb(106, 12, 12);
+}
+/* .qualification-parent-second-section {
+    margin: 20px 50px 0 0;
+  } */
+@media only screen and(max-width:900px) {
+  .Degrees-Received {
+    /* margin: -313px 0 0 35%; */
+    margin-top: -330px;
+    color: rgb(37, 36, 36);
+  }
+  .qualification-parent-section {
+    margin-left: 300px;
+    margin-top: -200px;
+  }
+}
