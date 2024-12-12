@@ -8,8 +8,12 @@ function App() {
     let val = myName;
     if (val === "My name is ankit Maurya") {
       setMyName("I am a software engineer");
+    } else if (val === "I am a software engineer") {
+      setMyName("hello everyone");
+    } else if (val === "hello everyone") {
+      setMyName("kya hal chal hai");
     } else {
-      setMyName("My name is ankit Maurya");
+      setMyName("kaisa laga mera mazak");
     }
   };
   return (
