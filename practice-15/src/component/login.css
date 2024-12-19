@@ -1,0 +1,9 @@
+.main {
+  height: 400px;
+  width: 20%;
+  border: 1px solid red;
+  margin: 80px auto;
+}
+.login-title {
+  margin: 20px 0px 0px 20%;
+}

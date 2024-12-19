@@ -1,0 +1,19 @@
+* {
+  cursor: pointer;
+}
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+}
+.box {
+  height: 40vh;
+  width: 50vh;
+  background-color: red;
+}
+.paragraph {
+  margin: 40px;
+}

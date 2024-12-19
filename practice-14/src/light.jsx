@@ -3,6 +3,7 @@ import "./light.css";
 import { Box } from "@mui/material";
 const Light = () => {
   const [color1, setColor1] = useState("");
+
   const handleClickOn1 = () => {
     setColor1("red");
   };
@@ -10,6 +11,7 @@ const Light = () => {
     setColor1("");
   };
   const [color2, setColor2] = useState("");
+
   const handleClickOn2 = () => {
     setColor2("green");
   };
@@ -30,6 +32,7 @@ const Light = () => {
   const handleClickOf4 = () => {
     setColor4("");
   };
+  const [color, setColor] = useState("pink");
 
   return (
     <>
