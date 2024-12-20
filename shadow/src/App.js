@@ -6,17 +6,19 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
+  const label = { inputProps: { "aria-label": "Switch demo" } };
   const [Hori, setHori] = useState(5);
   const [Veri, setVeri] = useState(5);
   const [Blur, setBlur] = useState(5);
   const [Color, setColor] = useState("black");
+  const [CheckOn, setCheckOn] = useState(false);
   return (
     <Box className="App">
       <Box className="controls">
         <Box>
           <Typography variant="h4">Horizontal lenght</Typography>
           <input
-            style={{ width: 300 }}
+            style={{ width: 200 }}
             type="range"
             min="-200"
             max="200"
@@ -27,7 +29,7 @@ function App() {
         <Box>
           <Typography variant="h4">Vertical lenght</Typography>
           <input
-            style={{ width: 300 }}
+            style={{ width: 200 }}
             type="range"
             min="-200"
             max="200"
@@ -38,7 +40,7 @@ function App() {
         <Box>
           <Typography variant="h4">Blur</Typography>
           <input
-            style={{ width: 300 }}
+            style={{ width: 200 }}
             type="range"
             min="0"
             max="200"
@@ -46,23 +48,35 @@ function App() {
             onChange={(e) => setBlur(e.target.value)}
           />
         </Box>
+
         <Box>
           <Typography variant="h4">Color</Typography>
           <input
-            style={{ width: 90, height: 80 }}
+            style={{ width: 50, height: 40 }}
             type="color"
             value={Color}
             onChange={(e) => setColor(e.target.value)}
           />
         </Box>
         <Box>
-          <input type="CheckBox"></input>
+          <label>Outline</label>
+          <Switch
+            {...label}
+            defaultChecked
+            checked={CheckOn}
+            onChange={(e) => setCheckOn(!CheckOn)}
+          />
+          <label>Inset</label>
         </Box>
       </Box>
       <Box className="output">
         <Box
           className="box"
-          style={{ boxShadow: `${Hori}px ${Veri}px ${Blur}px ${Color}` }}
+          style={{
+            boxShadow: `${
+              CheckOn ? "inset" : ""
+            }   ${Hori}px ${Veri}px ${Blur}px ${Color}`,
+          }}
         >
           <Typography variant="p" className="paragraph">
             boxShadow:{Hori}px {Veri}px {Blur}px {Color}
