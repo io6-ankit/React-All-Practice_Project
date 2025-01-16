@@ -6,7 +6,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const label = { inputProps: { "aria-label": "Switch demo" } };
+  // const label = { inputProps: { "aria-label": "Switch demo" } };
   const [Hori, setHori] = useState(5);
   const [Veri, setVeri] = useState(5);
   const [Blur, setBlur] = useState(5);
@@ -61,7 +61,7 @@ function App() {
         <Box>
           <label>Outline</label>
           <Switch
-            {...label}
+            // {...label}
             defaultChecked
             checked={CheckOn}
             onChange={(e) => setCheckOn(!CheckOn)}
