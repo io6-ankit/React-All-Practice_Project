@@ -1,0 +1,26 @@
+.Slider-Navbar-parent {
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo,
+.section {
+  width: 40%;
+  /* height: 100px; */
+  /* border: 1px solid black; */
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+.section a:hover {
+  text-decoration: underline green;
+}
