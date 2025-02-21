@@ -1,27 +1,20 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-function App() {
-  const [myName, setMyName] = useState("My name is Ankit mauarya");
-  const HandleChangeName = () => {
-    let val = myName;
-    if (val === "My name is ankit Maurya") {
-      setMyName("I am a software engineer");
-    } else if (val === "I am a software engineer") {
-      setMyName("hello everyone");
-    } else if (val === "hello everyone") {
-      setMyName("kya hal chal hai");
-    } else {
-      setMyName("kaisa laga mera mazak");
-    }
-  };
+const App = () => {
+  const { id } = useParams(); // URL से id प्राप्त करें
+  const [userId, setUserId] = useState("");
+
+  useEffect(() => {
+    setUserId(id); // URL param से state अपडेट करें
+  }, [id]);
+
   return (
-    <>
-      <div>{myName}</div>
-      <button onClick={HandleChangeName}>clicked</button>
-    </>
+    <div>
+      <h2>User Profile</h2>
+      <p>User ID: {userId}</p>
+    </div>
   );
-}
+};
 
 export default App;

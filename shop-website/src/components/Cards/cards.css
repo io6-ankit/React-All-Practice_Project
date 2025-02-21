@@ -1,0 +1,13 @@
+.card {
+  height: 220px;
+  width: 380px;
+  border: 1px solid black;
+}
+.first-cards-line,
+.second-cards-line,
+.third-cards-line,
+.fourth-cards-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
