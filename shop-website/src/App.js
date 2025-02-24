@@ -18,10 +18,12 @@ import Image11 from "./assets/image/image-11.webp";
 import Image12 from "./assets/image/image-12.webp";
 import SuperHeading from "./components/Cards/Super-Dhamaka-Heading";
 import Champion from "./components/Cards/champion-categories-heading";
+import Banner from "./components/Cards/banner";
 function App() {
   return (
     <>
       <Navbar />
+      <Banner />
       <Box className="main">
         <Champion />
         <Box className="offerCard">
