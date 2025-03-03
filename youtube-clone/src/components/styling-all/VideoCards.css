@@ -1,0 +1,31 @@
+.videocard {
+  margin-top: 40px;
+  width: 270px;
+}
+.videoCard-thumbnail {
+  height: 140px;
+  width: 250px;
+}
+.video_avatar {
+  border: 1px solid black;
+}
+.video_info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+.video_text {
+  /* border: 1px solid black; */
+  /* width: 80%; */
+  margin-left: 5px;
+  /* height: 80px; */
+}
+.video_title_heading {
+  margin-top: 0;
+}
+.video_channel_heading {
+  margin-top: -16px;
+}
+.video_views_heading {
+  margin-top: -10px;
+}
