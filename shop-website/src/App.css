@@ -1,7 +1,7 @@
 .offerCard {
   display: flex;
   justify-content: center;
-  gap: 66px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 .main {
