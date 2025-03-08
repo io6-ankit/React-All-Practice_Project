@@ -21,7 +21,7 @@ const VideoCard = ({
         <div className="video_info">
           <Avatar className="video_avatar" alt={channel} src={channelImage} />
           <div className="video_text">
-            <h2 className="video_title_heading">{title}</h2>
+            <h3 className="video_title_heading">{title}</h3>
             <p className="video_channel_heading">{channel}</p>
             <p className="video_views_heading">
               {views} . {timestamp}
